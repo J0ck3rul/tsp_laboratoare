@@ -1,0 +1,15 @@
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\Lab4- EfStudiuDeCaz.exe.config
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\Lab4- EfStudiuDeCaz.exe
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\Lab4- EfStudiuDeCaz.pdb
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\EntityFramework.dll
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\EntityFramework.xml
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.csprojAssemblyReference.cache
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4__EfStudiuDeCaz.Properties.Resources.resources
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.csproj.GenerateResource.cache
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.csproj.CopyComplete
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.exe
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4- EfStudiuDeCaz.pdb
+C:\Users\etibulea\source\repos\Lab4- EfStudiuDeCaz\Lab4- EfStudiuDeCaz\obj\Debug\Lab4__EfStudiuDeCaz.Form1.resources

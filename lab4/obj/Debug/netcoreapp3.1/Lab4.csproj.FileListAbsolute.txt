@@ -1,0 +1,5 @@
+D:\Facultate\Anul3\Semestrul2\TSP .NET\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.deps.json
+D:\Facultate\Anul3\Semestrul2\TSP .NET\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
+D:\Facultate\Anul3\Semestrul2\TSP .NET\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache
+D:\Facultate\Anul3\Semestrul2\TSP .NET\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\Semestrul2\TSP .NET\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs

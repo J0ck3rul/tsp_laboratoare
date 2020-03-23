@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model3.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model3StoreContainer">
+    <EntitySet Name="Albums" EntityType="Model3.Store.Albums" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Arists" EntityType="Model3.Store.Arists" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AristAlbum" EntityType="Model3.Store.AristAlbum" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AristAlbum_Arist" Association="Model3.Store.FK_AristAlbum_Arist">
+      <End Role="Arist" EntitySet="Arists" />
+      <End Role="AristAlbum" EntitySet="AristAlbum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AristAlbum_Album" Association="Model3.Store.FK_AristAlbum_Album">
+      <End Role="Album" EntitySet="Albums" />
+      <End Role="AristAlbum" EntitySet="AristAlbum" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Albums">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AlbumName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Arists">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AristAlbum">
+    <Key>
+      <PropertyRef Name="Arists_Id" />
+      <PropertyRef Name="Albums_Id" />
+    </Key>
+    <Property Name="Arists_Id" Type="int" Nullable="false" />
+    <Property Name="Albums_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AristAlbum_Arist">
+    <End Role="Arist" Type="Model3.Store.Arists" Multiplicity="1" />
+    <End Role="AristAlbum" Type="Model3.Store.AristAlbum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Arist">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AristAlbum">
+        <PropertyRef Name="Arists_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AristAlbum_Album">
+    <End Role="AristAlbum" Type="Model3.Store.AristAlbum" Multiplicity="*" />
+    <End Role="Album" Type="Model3.Store.Albums" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Album">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AristAlbum">
+        <PropertyRef Name="Albums_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model3" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model3Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Albums" EntityType="Model3.Album" />
+          <EntitySet Name="Arists" EntityType="Model3.Arist" />
+          <AssociationSet Name="AristAlbum" Association="Model3.AristAlbum">
+            <End Role="Arist" EntitySet="Arists" />
+            <End Role="Album" EntitySet="Albums" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Album">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AlbumName" Type="String" Nullable="false" />
+          <NavigationProperty Name="Arists" Relationship="Model3.AristAlbum" FromRole="Album" ToRole="Arist" />
+        </EntityType>
+        <EntityType Name="Arist">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" />
+          <Property Name="LastName" Type="String" Nullable="false" />
+          <NavigationProperty Name="Albums" Relationship="Model3.AristAlbum" FromRole="Arist" ToRole="Album" />
+        </EntityType>
+        <Association Name="AristAlbum">
+          <End Type="Model3.Arist" Role="Arist" Multiplicity="*" />
+          <End Type="Model3.Album" Role="Album" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model3StoreContainer" CdmEntityContainer="Model3Container">
+    <EntitySetMapping Name="Albums">
+      <EntityTypeMapping TypeName="IsTypeOf(Model3.Album)">
+        <MappingFragment StoreEntitySet="Albums">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AlbumName" ColumnName="AlbumName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Arists">
+      <EntityTypeMapping TypeName="IsTypeOf(Model3.Arist)">
+        <MappingFragment StoreEntitySet="Arists">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AristAlbum" TypeName="Model3.AristAlbum" StoreEntitySet="AristAlbum">
+      <EndProperty Name="Arist">
+        <ScalarProperty Name="Id" ColumnName="Arists_Id" />
+      </EndProperty>
+      <EndProperty Name="Album">
+        <ScalarProperty Name="Id" ColumnName="Albums_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
