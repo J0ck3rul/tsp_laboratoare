@@ -1,0 +1,1 @@
+Spre deosebire de proiectul 1, au fost adaugat atributele de [DataMember] pentru fiecare proprietate, in vederea realizarii unui data contract si a serializarii.
