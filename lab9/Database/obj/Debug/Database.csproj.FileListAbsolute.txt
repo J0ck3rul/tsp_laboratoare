@@ -1,0 +1,12 @@
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\Database.dll.config
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\Database.dll
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\Database.pdb
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\EntityFramework.dll
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\EntityFramework.xml
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\obj\Debug\Database.dll
+C:\Users\etibulea\source\repos\TSP_PROJ\Database\obj\Debug\Database.pdb

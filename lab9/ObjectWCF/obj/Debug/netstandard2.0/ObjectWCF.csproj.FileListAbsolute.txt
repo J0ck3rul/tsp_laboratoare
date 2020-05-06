@@ -1,0 +1,11 @@
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\ObjectWCF.deps.json
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\ObjectWCF.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\Database.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\EntityFramework.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\Database.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\Database.dll.config
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\bin\Debug\netstandard2.0\EntityFramework.xml
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\obj\Debug\netstandard2.0\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\obj\Debug\netstandard2.0\ObjectWCF.AssemblyInfoInputs.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\obj\Debug\netstandard2.0\ObjectWCF.AssemblyInfo.cs
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\TSP_PROJ2\ObjectWCF\obj\Debug\netstandard2.0\ObjectWCF.csproj.CopyComplete
