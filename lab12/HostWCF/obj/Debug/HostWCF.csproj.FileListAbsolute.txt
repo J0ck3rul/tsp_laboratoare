@@ -1,0 +1,31 @@
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\HostWCF.exe.config
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\HostWCF.exe
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\HostWCF.pdb
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\ObjectWCF.dll
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\PostComment.dll
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\EntityFramework.dll
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\PostComment.pdb
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\PostComment.dll.config
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\bin\Debug\EntityFramework.xml
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\obj\Debug\HostWCF.exe
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\HostWCF\obj\Debug\HostWCF.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\HostWCF.exe.config
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\HostWCF.exe
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\HostWCF.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\EntityFramework.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\ObjectWCF.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\PostComment.dll
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\EntityFramework.xml
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\PostComment.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\bin\Debug\PostComment.dll.config
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\obj\Debug\HostWCF.exe
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\HostWCF\obj\Debug\HostWCF.pdb

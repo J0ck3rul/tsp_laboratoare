@@ -1,0 +1,19 @@
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\bin\Debug\ClientPostComment.exe.config
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\bin\Debug\ClientPostComment.exe
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\bin\Debug\ClientPostComment.pdb
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.csprojAssemblyReference.cache
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.Form1.resources
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.Properties.Resources.resources
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.csproj.GenerateResource.cache
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.exe
+C:\Users\ddedeaga\Desktop\Anul3\TSP .Net\Facultate\Lab6_Mi16\ClientPostComment\obj\Debug\ClientPostComment.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\bin\Debug\ClientPostComment.exe.config
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\bin\Debug\ClientPostComment.exe
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\bin\Debug\ClientPostComment.pdb
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.csprojAssemblyReference.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.Form1.resources
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.Properties.Resources.resources
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.csproj.GenerateResource.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.exe
+C:\Users\etibulea\Documents\repos\tsp_laboratoare\lab12\ClientPostComment\obj\Debug\ClientPostComment.pdb
