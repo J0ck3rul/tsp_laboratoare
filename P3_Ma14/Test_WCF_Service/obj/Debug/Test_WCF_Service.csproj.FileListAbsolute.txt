@@ -1,0 +1,7 @@
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\bin\Debug\Test_WCF_Service.exe.config
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\bin\Debug\Test_WCF_Service.exe
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\bin\Debug\Test_WCF_Service.pdb
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\obj\Debug\Test_WCF_Service.csprojAssemblyReference.cache
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\obj\Debug\Test_WCF_Service.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\obj\Debug\Test_WCF_Service.exe
+C:\Users\etibulea\source\repos\Tsp\Test_WCF_Service\obj\Debug\Test_WCF_Service.pdb

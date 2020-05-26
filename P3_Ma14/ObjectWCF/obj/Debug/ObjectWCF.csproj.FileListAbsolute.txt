@@ -1,0 +1,13 @@
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\ObjectWCF.exe.config
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\ObjectWCF.exe
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\Database.3.0.exe
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\Database.3.0.pdb
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\Database.3.0.exe.config
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\obj\Debug\ObjectWCF.exe
+C:\Users\etibulea\source\repos\Tsp\ObjectWCF\obj\Debug\ObjectWCF.pdb

@@ -1,0 +1,124 @@
+﻿@page
+@model MediaRazorPage.Pages.Photos.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Photos</h1>
+<br />
+<br />
+<div class="container" style="display:flex; width=100%">
+    <div class="left-side" style="border:1px dotted #1861ac;">
+        <h2>Photos</h2>
+        <form sp-page="./Index" method="get">
+            <div style="display:flex;flex-direction:column;justify-content:center;padding: 8px">
+                <div style="display:flex;justify-content:space-evenly">
+                    <div class="form-group">
+                        <label class="control-label">Name</label>
+                        <input class="form-control" name="name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Tag</label>
+                        <input class="form-control" name="tag" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Photo Id Tags</label>
+                        <input class="form-control" name="photoIdTag" />
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; margin-top: 8px; justify-content: center">
+                    <input type="submit" value="Filter" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+
+        <p>Numbers results: @Html.DisplayTextFor(model => model.Items.Count)</p>
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Items[0].Id)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Items[0].Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Items[0].Event)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Items[0].Event)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Items[0].Url)
+                    </th>
+                    <th>
+                        Go to
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    <tr style="font-size: small">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Event)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Url)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="right-side" style="margin-left:50px;border:1px dotted #1861ac;">
+        <h2>Tags</h2>
+
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tags[0].Id)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tags[0].Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tags[0].PhotoId)
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Tags)
+                {
+                    <tr style="font-size: small">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PhotoId)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
